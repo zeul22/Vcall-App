@@ -25,7 +25,7 @@ const Sidebar = () => {
                         'bg-blue-1':isActive,
                         
                     })}>
-                    <Image src={link.imgUrl} alt={link.label}
+                    <Image src={link.imgURL} alt={link.label}
                     height={24} width={24} />
 
                     <p className='text-lg font-semibold'>

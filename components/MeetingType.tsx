@@ -86,7 +86,7 @@ const MeetingType = () => {
         img='icons/add-meeting.svg'
         title="View Recordings"
         description="Check your meeting recording"
-        handleClick={()=>{SetMeetingState('isJoiningMeeting')}}
+        handleClick={()=>router.push('/recordings')}
         className='bg-purple-1'
         />
         <HomeCard 
